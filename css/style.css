@@ -1,0 +1,130 @@
+input::placeholder {
+  font-family: "PT Sans Caption", sans-serif;
+}
+::selection {
+  background-color: #fec260;
+}
+.form-control:focus {
+  background-color: white;
+  border-color: #d99c39;
+  box-shadow: 0 0 0 0.25rem #fec26055;
+}
+body {
+  background-color: #f8ecde;
+  font-family: "PT Sans Caption", sans-serif;
+}
+main {
+  min-height: 100vh;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3.125rem;
+  font-weight: 500;
+  color: rgb(53, 46, 40);
+}
+h1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  z-index: -1;
+  transition: height 0.5s;
+}
+h1:hover::after {
+  height: 50%;
+}
+.b-body {
+  border-top: 2px dotted #352e28;
+  border-bottom: 2px dotted #352e28;
+}
+.b-body p {
+  font-size: 1.5625rem;
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.inputs span {
+  color: rgb(33, 37, 41);
+}
+/* .b-body button {
+  background-color:var(--sub-bg);
+  color:var(--sub-text) !important;
+  border-color: #d1512d;
+  transition: all 0.2s ease-in-out;
+}
+.b-body button:hover {
+  background-color: #a03315;
+  border-color: #bb4120;
+  color: white;
+} */
+.b-body button {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #d1512d;
+  --bs-btn-border-color: #d1512d;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #bb4120;
+  --bs-btn-hover-border-color: #a03315;
+  transition: all 0.2s ease-in-out;
+}
+th,
+td {
+  color: rgb(33, 37, 41) !important;
+}
+table .visit {
+  background-color: #9eb23b;
+  border: #9eb23b;
+}
+table .visit:hover {
+  background-color: #8a9e23;
+  border: #6e8018;
+}
+table .delete {
+  background-color: #eb1d36;
+  border-color: #eb1d36;
+}
+table .delete:hover {
+  background-color: #d30820;
+  border-color: #ba081d;
+}
+.warning {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.inner {
+  width: 500px;
+  z-index: 999;
+}
+.warning .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.warning .circles .first {
+  background-color: #f05f5c;
+}
+.warning .circles .second {
+  background-color: #ffbe2e;
+}
+.warning .circles .third {
+  background-color: #4db748;
+}
+.warning .title {
+  font-family: "Bree Serif", serif;
+  font-size: 1.3125rem;
+  color: rgb(53, 46, 40);
+  line-height: 1.6875rem;
+}
+.rule {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+}
+.warning .text i {
+  color: rgb(187, 65, 32);
+}
